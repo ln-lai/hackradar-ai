@@ -23,5 +23,5 @@ The first browser run exposed an origin-comparison bug caused by Next.js normali
 - Public-page importer parsing, robots behavior, redirects, size limits and provenance were tested using HTTP fixtures. Availability of any specific live provider page is not guaranteed.
 - Grok success/failure handling was tested with mocked Responses API output. A live call was not made because no user API key/model was configured.
 - Supabase is not used; the implemented persistent store is SQLite.
-- GitHub Actions is supplied but has not run remotely. The local repository has been initialized and staged; no remote repository or push has been created.
+- The source is published at [ln-lai/hackradar-ai](https://github.com/ln-lai/hackradar-ai). The 45 uploaded files, including screenshots and executable script modes, were verified against the local Git tree. Remote CI results are tracked separately in [GitHub Actions](https://github.com/ln-lai/hackradar-ai/actions); the passing checks listed above are local results.
 - The preview services are stopped after validation. Use the included launcher to start the demo again.
